@@ -1,0 +1,105 @@
+.slider{
+    .swiper{
+        .swiper-pagination-bullet-active{
+            background: #FFE031;
+        }
+        .swiper-wrapper{
+            .swiper-slide{
+                justify-content: center;
+                text-align: center;
+                button{
+                    background-color: #FFE031;
+                    padding: 0.3rem 2.2rem;
+                    color: black;
+                    border-radius: 0.3rem;
+                    // font-size: 14px;
+                    width: 358px;
+                    height: 44px;
+                    margin-top: 20rem;
+                }
+    
+            }
+        }
+
+    }
+}
+
+.slider{
+    // display: flex;
+    .swiper-wrapper {
+        display: flex;
+        padding-top: 8rem;
+        margin-top: 2rem;
+        
+        .swiper-slide{
+            display: flex;
+            //  margin-left: 1.5rem;
+            flex-direction: column;
+            // text-align: center;
+            // justify-content: center;
+            align-self: center;
+            img{
+                // text-align: center;
+                // justify-content: center;
+                align-self: center;
+            }
+            p{
+                align-self: center;
+            }
+            button{
+                align-self: center;
+            }
+        }
+    //     .swiper-pagination{ // -----------son los tres puntitos---------
+    //     display: flex;
+    //     .swiper-pagination-bullet-active{
+    //         display: flex;
+    //     }
+    // }
+        .swiper-pagination{
+            // margin-left: 1.5rem;
+            // margin-top: 200px;
+        }
+
+        // .swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+        //     margin-left: 0px;
+        //     left: 20px;
+        //     width: 100%;
+        //     margin-bottom: 50px;
+        // }
+    }           
+}
+
+.slider{
+    // width: 100%;
+    // margin-left: -20px;
+    justify-content: center;
+    text-align: center;
+    align-self: center;
+        .img1{
+            text-align: center;
+            height: 100%;
+        }
+        .img2{
+            text-align: center;
+            height: 100%;
+        }
+        .img3{
+            text-align: center;
+            height: 100%;
+        }
+        p{
+            padding: 25px;
+        }
+}
+
+.swiper-pagination{
+    margin-top: 100px;
+}
+
+.swiper-pagination-fraction, .swiper-pagination-custom, .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal{
+    
+}
+
+
+

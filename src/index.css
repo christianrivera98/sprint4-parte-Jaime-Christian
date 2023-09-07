@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Arizonia&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+title {
+  font-family: "Arizonia", cursive;
+  font-size: 18px;
+}

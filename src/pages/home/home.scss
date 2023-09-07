@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+// $screen-mobile-width:375px,
+// Size screens
+$screen-tablet-width: 376px;
+$screen-laptop-width: 769px;
+$screen-desktop-width: 1367px;
+
+@media (min-width: $screen-tablet-width) {
+  .fondo {
+    background-color: linear-gradient(180deg, #ffe031 50%, #fff 100%);
+  }
+}
+
+@media (min-width: $screen-laptop-width) {
+  .fondo {
+    background-color: linear-gradient(180deg, #f9d401 50%, #fff 100%);
+  }
+}
+
+@media (min-width: $screen-desktop-width) {
+  .fondo {
+  
+    background-color: linear-gradient(180deg, #fced96 50%, #ffffff 100%);
+  }
+}
+
+
